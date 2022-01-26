@@ -25,7 +25,7 @@ func main() {
         os.Exit(1)
     }
 
-    println("write to server = ", strEcho)
+    println("Write to server =", strEcho)
 
     reply := make([]byte, 1024)
 
@@ -35,7 +35,7 @@ func main() {
         os.Exit(1)
     }
 
-    println("reply from server=", string(reply))
+    println("Reply from server =", string(reply))
 
     conn.Close()
 }
